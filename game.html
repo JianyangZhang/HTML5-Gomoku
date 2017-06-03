@@ -46,6 +46,25 @@
                 <div class="ui-block-b"> <a href="#new-game" data-rel="dialog" data-role="button" data-icon="grid"> Start A New Game </a> </div>
             </fieldset>
         </div>
+    </div>
+	<div id="new-game" data-theme="e" data-role="dialog" class="long-dialog">
+        <div data-role="header">
+            <h4>New Game</h4>
+        </div>
+        <div data-role="content">
+            <fieldset data-role="controlgroup" data-theme="e" id="mode-select">
+                <legend>Play with</legend> <input type="radio" name="radio-choice-1" id="radio-choice-1" value="vshuman" /> <label for="radio-choice-1">Human</label> <input type="radio" name="radio-choice-1" id="radio-choice-2" value="vscomputer" /> <label for="radio-choice-2">Computer</label>                </fieldset>
+            <fieldset data-role="controlgroup" data-theme="e" id="color-select" class="vs-computer">
+                <legend>Your Color</legend> <input type="radio" name="radio-choice-1" id="radio-choice-2" value="black" data-theme="a" /> <label for="radio-choice-2">Black</label> <input type="radio" name="radio-choice-1" id="radio-choice-1" value="white" data-theme="c"
+                /> <label for="radio-choice-1">White</label> </fieldset>
+            <fieldset data-role="controlgroup" data-theme="e" id="level-select" class="vs-computer">
+                <legend>Level Of Difficulty</legend> <input type="radio" name="radio-choice-1" id="radio-choice-1" value="novice" /> <label for="radio-choice-1">Novice</label> <input type="radio" name="radio-choice-1" id="radio-choice-2" value="medium" />
+                <label for="radio-choice-2">Medium</label> <input type="radio" name="radio-choice-1" id="radio-choice-3" value="expert" /> <label for="radio-choice-3">Expert</label> </fieldset>
+            <fieldset class="ui-grid-a">
+                <div class="ui-block-a"><button type="submit" class="back-to-game" data-theme="c">Back</button></div>
+                <div class="ui-block-b"><button type="submit" id="start-game" data-theme="b">Start</button></div>
+            </fieldset>
+        </div>
     </div>	
 </body>
 
