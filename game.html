@@ -21,6 +21,20 @@
 <body ontouchstart="">
     <div class="fullscreen-wrapper" id="happy-outer"> <img src="images/happy.png" class="happy-face screen-center" /> </div>
     <div class="fullscreen-wrapper" id="sad-outer"> <img src="images/sad.png" class="sad-face screen-center" /> </div>
+	<div data-role="page" data-theme="w" id="game-page" class="no-background">
+        <div data-role="content" class="center no-padding">
+            <div id="game-region">
+                <header class="game-ult">Gomoku</header>
+                <div id="game-info" class="game-ult ui-bar ui-bar-e"> <span class="go black"></span> <span class="cont">Your turn.</span> </div>
+                <div id="main-but-group" class="game-ult"> <a href="#new-game" data-rel="dialog" data-role="button" data-icon="grid">New Game</a> <a href="#" id="undo-button" data-icon="back" data-role="button">Undo</a> </div>
+                <div id="other-but-group" class="game-ult"> <a href="#help-page" id="help-button" data-icon="star" data-role="button">About</a> </div>
+                <div class="go-board" data-enhance="false"> </div>
+                <table class="board" data-enhance="false">
+                    <tbody> </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
