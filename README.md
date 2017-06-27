@@ -1,3 +1,3 @@
 # HTML5-Gomoku
 
-HTML5 Gomoku (in progress)
+HTML5 Gomoku (Run in Firefox Only)
